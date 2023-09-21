@@ -56,7 +56,17 @@ public class EmpleadoGUI extends javax.swing.JInternalFrame {
 
         jToolBar1.setRollover(true);
 
-        bt_Nuevo.setIcon(new javax.swing.ImageIcon("C:\\Users\\anton\\Documents\\NetBeansProjects\\Tecnologias de Construccion\\Practica_01\\TPCS_Practica01\\imagenes\\iconos\\guardar.png")); // NOI18N
+        bt_Nuevo.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/guardar.png?alt=media&token=bd5ed5c8-16bb-44b3-8ccb-2f27e28e3ce5")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         bt_Nuevo.setToolTipText("Guardar");
         bt_Nuevo.setFocusable(false);
         bt_Nuevo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -68,7 +78,17 @@ public class EmpleadoGUI extends javax.swing.JInternalFrame {
         });
         jToolBar1.add(bt_Nuevo);
 
-        bt_Modificar.setIcon(new javax.swing.ImageIcon("C:\\Users\\anton\\Documents\\NetBeansProjects\\Tecnologias de Construccion\\Practica_01\\TPCS_Practica01\\imagenes\\iconos\\modificar.png")); // NOI18N
+        bt_Modificar.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/modificar.png?alt=media&token=92c3080b-4a1c-4dc7-af07-d37b0cf3420e")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         bt_Modificar.setToolTipText("Modificar");
         bt_Modificar.setFocusable(false);
         bt_Modificar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -80,7 +100,17 @@ public class EmpleadoGUI extends javax.swing.JInternalFrame {
         });
         jToolBar1.add(bt_Modificar);
 
-        bt_Eliminar.setIcon(new javax.swing.ImageIcon("C:\\Users\\anton\\Documents\\NetBeansProjects\\Tecnologias de Construccion\\Practica_01\\TPCS_Practica01\\imagenes\\iconos\\eliminar.png")); // NOI18N
+        bt_Eliminar.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/eliminar.png?alt=media&token=07e282ce-9292-44e3-8ba3-40cc839724df")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         bt_Eliminar.setToolTipText("Eliminar");
         bt_Eliminar.setFocusable(false);
         bt_Eliminar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -92,7 +122,17 @@ public class EmpleadoGUI extends javax.swing.JInternalFrame {
         });
         jToolBar1.add(bt_Eliminar);
 
-        bt_Buscar.setIcon(new javax.swing.ImageIcon("C:\\Users\\anton\\Documents\\NetBeansProjects\\Tecnologias de Construccion\\Practica_01\\TPCS_Practica01\\imagenes\\iconos\\buscar.png")); // NOI18N
+        bt_Buscar.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/buscar.png?alt=media&token=318dc234-b543-4fd5-a850-f0c0487f2c7e")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         bt_Buscar.setToolTipText("Buscar");
         bt_Buscar.setFocusable(false);
         bt_Buscar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -104,7 +144,17 @@ public class EmpleadoGUI extends javax.swing.JInternalFrame {
         });
         jToolBar1.add(bt_Buscar);
 
-        bt_todo.setIcon(new javax.swing.ImageIcon("C:\\Users\\anton\\Documents\\NetBeansProjects\\Tecnologias de Construccion\\Practica_01\\TPCS_Practica01\\imagenes\\iconos\\actualizar.png")); // NOI18N
+        bt_todo.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/actualizar.png?alt=media&token=6c5144d4-7c96-4f60-9bc3-4fb65a12f234")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         bt_todo.setToolTipText("Actualizar");
         bt_todo.setFocusable(false);
         bt_todo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);

@@ -42,7 +42,7 @@
         <Component class="javax.swing.JButton" name="bt_Nuevo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\anton\Documents\NetBeansProjects\Tecnologias de Construccion\Practica_01\TPCS_Practica01\imagenes\iconos\guardar.png"/>
+              <Image iconType="1" name="https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/guardar.png?alt=media&amp;token=bd5ed5c8-16bb-44b3-8ccb-2f27e28e3ce5"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Guardar"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -56,7 +56,7 @@
         <Component class="javax.swing.JButton" name="bt_Modificar">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\anton\Documents\NetBeansProjects\Tecnologias de Construccion\Practica_01\TPCS_Practica01\imagenes\iconos\modificar.png"/>
+              <Image iconType="1" name="https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/modificar.png?alt=media&amp;token=92c3080b-4a1c-4dc7-af07-d37b0cf3420e"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Modificar"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -70,7 +70,7 @@
         <Component class="javax.swing.JButton" name="bt_Eliminar">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\anton\Documents\NetBeansProjects\Tecnologias de Construccion\Practica_01\TPCS_Practica01\imagenes\iconos\eliminar.png"/>
+              <Image iconType="1" name="https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/eliminar.png?alt=media&amp;token=07e282ce-9292-44e3-8ba3-40cc839724df"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Eliminar"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -84,7 +84,7 @@
         <Component class="javax.swing.JButton" name="bt_Buscar">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\anton\Documents\NetBeansProjects\Tecnologias de Construccion\Practica_01\TPCS_Practica01\imagenes\iconos\buscar.png"/>
+              <Image iconType="1" name="https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/buscar.png?alt=media&amp;token=318dc234-b543-4fd5-a850-f0c0487f2c7e"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Buscar"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -98,7 +98,7 @@
         <Component class="javax.swing.JButton" name="bt_todo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\anton\Documents\NetBeansProjects\Tecnologias de Construccion\Practica_01\TPCS_Practica01\imagenes\iconos\actualizar.png"/>
+              <Image iconType="1" name="https://firebasestorage.googleapis.com/v0/b/tpcspractica01.appspot.com/o/actualizar.png?alt=media&amp;token=6c5144d4-7c96-4f60-9bc3-4fb65a12f234"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Actualizar"/>
             <Property name="focusable" type="boolean" value="false"/>
