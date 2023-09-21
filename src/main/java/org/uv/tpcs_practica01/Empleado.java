@@ -12,6 +12,15 @@ public class Empleado {
    private String direccion;
    private String telefono;
    
+   public Empleado(){
+   }
+   
+   public Empleado(String nombre, String direccion, String telefono){
+       nombre=this.nombre;
+       direccion=this.direccion;
+       telefono=this.telefono;
+   }
+   
     //Getters and Setters
    public int getClave() {
         return clave;

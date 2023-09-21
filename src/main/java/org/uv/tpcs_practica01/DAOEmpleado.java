@@ -22,12 +22,11 @@ public class DAOEmpleado implements IDAOGeneral<Empleado, Integer>{
             @Override
             public boolean execute(Connection con) {
                 try {
-                    String sql = "INSERT INTO empleado (clave, nombre, direccion, telefono) VALUES (?, ?, ?, ?)";
+                    String sql = "INSERT INTO empleado (nombre, direccion, telefono) VALUES (?, ?, ?)";
                     PreparedStatement pstm = con.prepareStatement(sql);
-                    pstm.setInt(1, p.getClave());
-                    pstm.setString(2, p.getNombre());
-                    pstm.setString(3, p.getDireccion());
-                    pstm.setString(4, p.getTelefono());
+                    pstm.setString(1, p.getNombre());
+                    pstm.setString(2, p.getDireccion());
+                    pstm.setString(3, p.getTelefono());
                     pstm.execute();
                     
                     return true;
@@ -51,7 +50,8 @@ public class DAOEmpleado implements IDAOGeneral<Empleado, Integer>{
             @Override
             public boolean execute (Connection con){
                 try {
-                    String sql = "UPDATE empleados SET nombre = ?, direccion = ?, telefono = ? WHERE clave = ?";
+                    String sql = "UPDATE empleado SET nombre = ?, direccion = ?, telefono =? " + 
+                            "WHERE clave = ?";
                     PreparedStatement pstm = con.prepareStatement(sql);
                     pstm.setString(1, p.getNombre());
                     pstm.setString(2, p.getDireccion());
@@ -77,9 +77,9 @@ public class DAOEmpleado implements IDAOGeneral<Empleado, Integer>{
             @Override
             public boolean execute (Connection con){
                 try{
-                    String sql = "DELETE FROM empleados WHERE clave =?";
+                    String sql = "DELETE FROM empleado WHERE clave = ?";
                     PreparedStatement pstm = con.prepareStatement(sql);
-                    pstm.setInt(1, p);
+                    pstm.setInt(1, clave);
                     pstm.execute();
                     return true;
                 }catch (SQLException ex){
@@ -100,7 +100,7 @@ public class DAOEmpleado implements IDAOGeneral<Empleado, Integer>{
             public List<Empleado> select(Connection con) {
                 try {
                     List<Empleado> listEmpleados = new ArrayList<>();
-                    String sql = "SELECT * FROM empleados WHERE clave = ?";
+                    String sql = "SELECT * FROM empleado WHERE clave = ?";
                     PreparedStatement pstmt = con.prepareStatement(sql);
                     pstmt.setInt(1, id);
                     ResultSet reg = pstmt.executeQuery();
@@ -137,7 +137,7 @@ public class DAOEmpleado implements IDAOGeneral<Empleado, Integer>{
             public List select (Connection con) {
                 try {
                     List<Empleado> listEmpleados = new ArrayList<>();
-                    String sql = "SELECT * FROM empleados";
+                    String sql = "SELECT * FROM empleado";
                     Statement st = null;
                     ResultSet reg = null;
                     st = con.createStatement();
